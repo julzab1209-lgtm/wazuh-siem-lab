@@ -66,6 +66,19 @@ docs/
 
 ---
 
+---
+
+## Documentation
+
+Detailed project documentation is available in the `docs` directory.
+
+| Document | Description |
+|----------|-------------|
+| installation.md | Installation and deployment of the Wazuh SIEM environment |
+| agent-configuration.md | Configuration and registration of Linux endpoints |
+| threat-hunting.md | Analysis of detected security events |
+| mitre-attack.md | MITRE ATT&CK mapping and event correlation |
+
 ## Project Status
 
 Completed
