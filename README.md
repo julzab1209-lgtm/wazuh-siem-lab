@@ -2,37 +2,45 @@
 
 ## Project Overview
 
-This project presents the deployment and configuration of a Wazuh SIEM environment in a virtual laboratory.
+This project demonstrates the deployment and configuration of a Wazuh Security Information and Event Management (SIEM) platform in a virtual laboratory environment.
 
-The project was completed as part of a cybersecurity course and demonstrates practical skills in deploying a Security Information and Event Management (SIEM) solution, monitoring security events, and analyzing alerts generated from Linux endpoints.
+The laboratory environment was designed to simulate a basic Security Operations Center (SOC), allowing centralized log collection, security event monitoring, threat detection, and MITRE ATT&CK analysis.
+
+---
 
 ## Objectives
 
 - Deploy Wazuh SIEM
-- Configure Linux endpoints
-- Collect and analyze security logs
-- Monitor security events
-- Perform Threat Hunting
-- Analyze MITRE ATT&CK mappings
+- Configure monitored Linux endpoints
+- Collect security logs
+- Analyze security events
+- Perform basic Threat Hunting
+- Map alerts to the MITRE ATT&CK framework
 
-## Lab Environment
+---
 
-| Component | Description |
-|-----------|-------------|
+## Laboratory Environment
+
+| Component | Technology |
+|-----------|------------|
 | Hypervisor | Oracle VirtualBox |
 | SIEM Server | Ubuntu Server |
 | Endpoint | Kali Linux |
 | SIEM Platform | Wazuh |
 | Framework | MITRE ATT&CK |
 
+---
+
 ## Technologies
 
-- Wazuh
+- Wazuh SIEM
 - Ubuntu Server
 - Kali Linux
 - Oracle VirtualBox
 - Linux
 - MITRE ATT&CK
+
+---
 
 ## Repository Structure
 
@@ -44,16 +52,19 @@ docs/
 └── mitre-attack.md
 ```
 
+---
+
 ## Skills Demonstrated
 
 - SIEM deployment
 - Linux administration
-- Endpoint monitoring
+- Security monitoring
 - Log analysis
 - Threat Hunting
 - Incident detection
-- Security monitoring
-- MITRE ATT&CK analysis
+- MITRE ATT&CK mapping
+
+---
 
 ## Project Status
 
