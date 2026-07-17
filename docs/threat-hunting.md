@@ -39,6 +39,14 @@ The following security events were detected during monitoring:
 | SSH Hardening Assessment | 7 | Security configuration assessment identified SSH hardening recommendations. |
 | New User Added *(if detected)* | 8 | User account creation detected by Wazuh. |
 
+## Severity Scale
+
+| Level | Interpretation |
+|:-----:|----------------|
+| 3 | Low – Informational security event requiring review. |
+| 7 | High – Potentially suspicious activity requiring investigation. |
+| 8 | High – Significant security event requiring immediate attention. |
+
 ---
 
 ## Event Analysis
