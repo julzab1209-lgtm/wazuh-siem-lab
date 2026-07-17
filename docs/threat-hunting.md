@@ -27,16 +27,17 @@ The generated events were collected by the Wazuh Agent and analyzed through the 
 
 The following security events were detected during monitoring:
 
-| Event | Description |
-|--------|-------------|
-| PAM Login Session Opened | User authentication session started |
-| PAM Login Session Closed | User authentication session ended |
-| Successful sudo to ROOT | Privilege escalation using sudo |
-| Host-based Anomaly Detection (Rootcheck) | Detection of potential security anomalies |
-| Wazuh Agent Started | Endpoint agent successfully started |
-| Wazuh Agent Stopped | Endpoint agent stopped |
-| Listened Ports Status Changed | Network port status changed |
-| SSH Hardening Checks | Security configuration recommendations for SSH |
+| Event | Severity | Description |
+|--------|:--------:|-------------|
+| PAM Login Session Opened | 3 | User authentication session started. |
+| PAM Login Session Closed | 3 | User authentication session ended. |
+| Successful sudo to ROOT | 3 | Privilege escalation using `sudo`. |
+| Wazuh Agent Started | 3 | Endpoint agent successfully started. |
+| Wazuh Agent Stopped | 3 | Endpoint agent stopped. |
+| Host-based Anomaly Detection (Rootcheck) | 7 | Rootcheck detected potential security anomalies. |
+| Listened Ports Status Changed | 7 | Network port status changed. |
+| SSH Hardening Assessment | 7 | Security configuration assessment identified SSH hardening recommendations. |
+| New User Added *(if detected)* | 8 | User account creation detected by Wazuh. |
 
 ---
 
