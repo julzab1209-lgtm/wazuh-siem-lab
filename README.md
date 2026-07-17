@@ -6,6 +6,23 @@ This project demonstrates the deployment, configuration and operation of a Wazuh
 
 The laboratory was designed to simulate a basic Security Operations Center (SOC), enabling centralized log collection, endpoint monitoring, threat detection, and security event analysis using Linux endpoints.
 
+**Goal**
+
+Deploy and configure a Wazuh SIEM environment capable of collecting and analyzing security events from Linux endpoints.
+
+**Environment**
+
+- Ubuntu Server
+- Kali Linux
+- Oracle VirtualBox
+- Wazuh SIEM
+
+**Key Skills**
+
+- SIEM Deployment
+- Threat Hunting
+- Security Monitoring
+- MITRE ATT&CK
 ---
 
 ## Objectives
@@ -60,43 +77,57 @@ The main objectives of this project were:
 
 ---
 
+## Project Workflow
+
+The laboratory project was completed according to the following implementation workflow:
+
+1. Deployed an Ubuntu Server virtual machine.
+2. Installed and configured the Wazuh Manager.
+3. Connected a Kali Linux endpoint using the Wazuh Agent.
+4. Generated security events for monitoring and analysis.
+5. Investigated detected alerts using the Threat Hunting module.
+6. Correlated selected events with the MITRE ATT&CK framework.
+7. Prepared complete technical documentation of the deployment and analysis process.
+## Repository Structure
+
 ## Repository Structure
 
 ```text
 wazuh-siem-lab
 │
 ├── README.md
-│
-├── docs
+├── docs/
 │   ├── installation.md
 │   ├── agent-configuration.md
 │   ├── threat-hunting.md
 │   └── mitre-attack.md
-│
-├── screenshots
-│   ├── agent-service-running.jpeg
-│   ├── alerts-summary.jpeg
-│   ├── mitre-dashboard.jpeg
-│   ├── security-events-details.jpeg
-│   ├── threat-hunting-events.jpeg
-│   └── wazuh-dashboard-overview.jpeg
-│
-└── summaries
+├── screenshots/
+└── summaries/
 ```
+
+**Quick Links**
+
+- 📄 [README.md](README.md)
+- 📁 [Documentation](docs/)
+  - [installation.md](docs/installation.md)
+  - [agent-configuration.md](docs/agent-configuration.md)
+  - [threat-hunting.md](docs/threat-hunting.md)
+  - [mitre-attack.md](docs/mitre-attack.md)
+- 🖼️ [Screenshots](screenshots/)
+- 📝 [Summaries](summaries/)
 
 ---
 
 ## Documentation
 
-The project documentation is organized into several sections describing the deployment, configuration and security monitoring process.
+The project documentation is organized into several sections describing the deployment, configuration, and security monitoring process.
 
 | Document | Description |
 |----------|-------------|
-| installation.md | Installation and deployment of the Wazuh SIEM environment |
-| agent-configuration.md | Configuration of the monitored Linux endpoint |
-| threat-hunting.md | Investigation and analysis of detected security events |
-| mitre-attack.md | MITRE ATT&CK mapping of detected security events |
-
+| **[installation.md](docs/installation.md)** | Installation and deployment of the Wazuh SIEM environment. |
+| **[agent-configuration.md](docs/agent-configuration.md)** | Configuration and registration of the monitored Linux endpoint. |
+| **[threat-hunting.md](docs/threat-hunting.md)** | Investigation and analysis of detected security events using Wazuh Threat Hunting. |
+| **[mitre-attack.md](docs/mitre-attack.md)** | Mapping detected security events to the MITRE ATT&CK framework for attack analysis. |
 ---
 
 # Project Gallery
